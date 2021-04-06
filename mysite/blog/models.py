@@ -390,6 +390,12 @@ class character(models.Model):
     weight_four = models.TextField()
     weight_five = models.TextField()
     weight_totals = models.TextField()
+    light_load =  models.TextField()
+    middle_load =  models.TextField()
+    big_load =  models.TextField()
+    raise_overhead =  models.TextField()
+    tear_off_the_ground = models.TextField()
+    push_or_drag = models.TextField()
     # properties
     properties_one = models.TextField()
     properties_two = models.TextField()
@@ -492,7 +498,107 @@ class character(models.Model):
     spells_per_day_lvl9 = models.TextField()
     spells_bonus_lvl9 = models.TextField()
     conditional_modifiers = models.TextField()
-    
+    #spheres/specializations_sсhool
+    Circumstance_modifiers = models.TextField()
+    #School_of_Incarnation-0
+    School_of_Incarnation_1 = models.TextField()
+    School_of_Incarnation_2 = models.TextField()
+    School_of_Incarnation_3 = models.TextField()
+    School_of_Incarnation_4 = models.TextField()
+    School_of_Incarnation_5 = models.TextField()
+    School_of_Incarnation_6 = models.TextField()
+    School_of_Incarnation_7 = models.TextField()
+    School_of_Incarnation_8 = models.TextField()
+    #School_of_illusion-1
+    School_of_illusion_1 = models.TextField()
+    School_of_illusion_2 = models.TextField()
+    School_of_illusion_3 = models.TextField()
+    School_of_illusion_4 = models.TextField()
+    School_of_illusion_5 = models.TextField()
+    School_of_illusion_6 = models.TextField()
+    School_of_illusion_7 = models.TextField()
+    School_of_illusion_8 = models.TextField()
+    #School_of_Necromancy-2
+    School_of_Necromancy_1 = models.TextField()
+    School_of_Necromancy_2 = models.TextField()
+    School_of_Necromancy_3 = models.TextField()
+    School_of_Necromancy_4 = models.TextField()
+    School_of_Necromancy_5 = models.TextField()
+    School_of_Necromancy_6 = models.TextField()
+    School_of_Necromancy_7 = models.TextField()
+    School_of_Necromancy_8 = models.TextField()
+    #School_of_charm-3
+    School_of_charm_1 = models.TextField()
+    School_of_charm_2 = models.TextField()
+    School_of_charm_3 = models.TextField()
+    School_of_charm_4 = models.TextField()
+    School_of_charm_5 = models.TextField()
+    School_of_charm_6 = models.TextField()
+    School_of_charm_7 = models.TextField()
+    School_of_charm_8 = models.TextField()
+    #School_of_transformation
+    School_of_transformation_1 = models.TextField()
+    School_of_transformation_2 = models.TextField()
+    School_of_transformation_3 = models.TextField()
+    School_of_transformation_4 = models.TextField()
+    School_of_transformation_5 = models.TextField()
+    School_of_transformation_6 = models.TextField()
+    School_of_transformation_7 = models.TextField()
+    School_of_transformation_8 = models.TextField()
+    #Obstruction_school
+    Obstruction_school_1 = models.TextField()
+    Obstruction_school_2 = models.TextField()
+    Obstruction_school_3 = models.TextField()
+    Obstruction_school_4 = models.TextField()
+    Obstruction_school_5 = models.TextField()
+    Obstruction_school_6 = models.TextField()
+    Obstruction_school_7 = models.TextField()
+    Obstruction_school_8 = models.TextField()
+    #School_of_Divination
+    School_of_Divination_1 = models.TextField()
+    School_of_Divination_2 = models.TextField()
+    School_of_Divination_3 = models.TextField()
+    School_of_Divination_4 = models.TextField()
+    School_of_Divination_5 = models.TextField()
+    School_of_Divination_6 = models.TextField()
+    School_of_Divination_7 = models.TextField()
+    School_of_Divination_8 = models.TextField()
+    #School_of_destruction
+    School_of_destruction_1 = models.TextField()
+    School_of_destruction_2 = models.TextField()
+    School_of_destruction_3 = models.TextField()
+    School_of_destruction_4 = models.TextField()
+    School_of_destruction_5 = models.TextField()
+    School_of_destruction_6 = models.TextField()
+    School_of_destruction_7 = models.TextField()
+    School_of_destruction_8 = models.TextField()
+    #School_of_Universalism
+    School_of_Universalism_1 = models.TextField()
+    School_of_Universalism_2 = models.TextField()
+    School_of_Universalism_3 = models.TextField()
+    School_of_Universalism_4 = models.TextField()
+    School_of_Universalism_5 = models.TextField()
+    School_of_Universalism_6 = models.TextField()
+    School_of_Universalism_7 = models.TextField()
+    School_of_Universalism_8 = models.TextField()
+    #money
+    money_MM = models.TextField()
+    money_CM = models.TextField()
+    money_3M =  models.TextField()
+    money_PM =  models.TextField()
+    experience =  models.TextField()
+    following_experience =  models.TextField()
+
+
+
+
+
+
+
+
+
+
+
 
 
 
